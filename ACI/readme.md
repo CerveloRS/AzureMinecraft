@@ -39,6 +39,9 @@ Information on these can be found on https://github.com/itzg/docker-minecraft-se
 A storageaccount is provisioned as part of the deployment. It will host a share with youre minecraft related files. 
 To work with these files if needed, I suggest using Azure Storage Explorer.
 
+## Parameterfile
+There is also a parameterfile containing settings for CPU, Memory and Storage. There should in most cases be no need to change this file.
+
 Files you might work with:
 1. Settingsfiles
 2. Worlds
