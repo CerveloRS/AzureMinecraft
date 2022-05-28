@@ -13,7 +13,7 @@ This repository will provide different ways of deploying a Minecraft Server to A
 
 1. Minecraft Servers on Azure Kubernetes Service.
 
-#Credits
+##Credits
 
 Templates and deploymentscripts are authored by CerveloRS
 
