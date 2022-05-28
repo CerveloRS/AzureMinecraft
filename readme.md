@@ -1,7 +1,7 @@
 # Azure Minecraft Servers
 
 ## Introduction
-This repository will provide different ways of deploying a Minecraft server to Azure.
+This repository will provide different ways of deploying a Minecraft Server to Azure.
 
 ## Options
 
