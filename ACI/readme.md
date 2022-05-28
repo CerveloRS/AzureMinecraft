@@ -47,7 +47,7 @@ Files you might work with:
 2. Worlds
 3. Mods and resources
 
-#Credits
+## Credits
 
 Templates and deploymentscripts are authored by CerveloRS
 
