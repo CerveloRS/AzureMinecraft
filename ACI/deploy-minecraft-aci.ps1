@@ -45,18 +45,22 @@ switch ($Edition) {
     "Java-Vanilla" { 
         $Image = "itzg/minecraft-server"
         $Type = "VANILLA"
+        $Port = '25565'
     }
     "Java-Forge" { 
         $Image = "itzg/minecraft-server:java8"
         $Type = "FORGE"
+        $Port = '25565'
     }
     "Java-Fabric" { 
         $Image = "itzg/minecraft-server"
         $Type = "FABRIC"
+        $Port = '25565'
     }
     "Bedrock" { 
         $Image = "itzg/minecraft-bedrock-server"
         $Type = " "
+        $Port = '19132'
     }
 }
 
@@ -78,6 +82,7 @@ $DeployParams = @{
     Location              = $Location.ToLower()
     Image                 = $Image
     Type                  = $Type
+    Port                  = $Port
     Operator              = $Operator
 }
 
