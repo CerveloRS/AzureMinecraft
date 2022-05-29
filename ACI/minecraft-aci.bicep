@@ -13,6 +13,7 @@ param Operator string
 
 param Image string
 param Type string
+param Port int
 
 resource storageaccount 'Microsoft.Storage/storageAccounts@2021-09-01' = {
   name: 'st${ResourceName}${Environment}${Instance}'
@@ -54,7 +55,7 @@ resource aci 'Microsoft.ContainerInstance/containerGroups@2021-10-01' = {
       type: 'Public'
       ports: [
         {
-          port: 25565
+          port: Port
           protocol: 'TCP'
         }
       ]
@@ -103,7 +104,7 @@ resource aci 'Microsoft.ContainerInstance/containerGroups@2021-10-01' = {
           ]
           ports: [
             {
-              port: 25565
+              port: Port
               protocol: 'TCP'
             }
           ]
